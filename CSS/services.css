@@ -1,0 +1,344 @@
+/* Стилі для усьго документа*/
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Times, Arial;
+}
+
+/* Загальні стилі */
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Блок для ощощення від обтікання*/
+.clear {
+	clear: both;
+}
+
+/* Стилі для обгорток */
+#mainWrapper {
+	background-color: #403E4E;
+	width: 100%;
+}
+
+
+#wrap {
+	min-width: 1286px;
+	max-width: 1600px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+/* Стилі для header */
+#header {
+	background-color: #ffffff;
+	min-height: 140px;
+
+}
+
+#nameGroup {
+	margin-left: 120px;
+	display: inline-block;
+}
+
+#nameGroup h1 {
+	font-size: 2.9em; 
+}
+
+#nameGroup h4 {
+	color: #B3B3B3;
+	margin-top: -30px;
+	
+}
+
+/* Стилі для menu */
+#menu {
+	float: right;
+	font-size: 1.6em;
+	margin: 30px 60px 0 0;
+}
+
+#menu ul li {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#menu ul {
+	margin: 20px 0;
+}
+
+#menu ul li a {
+	color: #a6a6a6;
+}
+
+ #menu ul li:hover {
+	background-color: #2830AB;
+}
+
+#menu ul li a:hover {
+	color: white;
+}
+
+/* */
+#footerHeader {
+	width: 100%;
+	min-height: 90px;
+	background-color: #2C17A5;
+
+}
+#aboutUsHeader {
+	/*width: 220px; */
+	float: left;
+	margin: 0 0 0 5%;
+}
+
+#TextHeader {
+	float: right;
+	margin-right: 5%;
+}
+
+#aboutUsHeader h2 {
+	color: white;
+	font-size: 2.6em;
+	margin: 20px 10px 15px 0;
+}
+
+#TextHeader p {
+	color: white;
+	font-size: 1.7em;
+	margin-top: 30px;
+}
+
+/* Головні новини і контент контент сайту сайту */
+#logoBlockNews {
+	width: 100%;
+	background-color: white;
+}
+#blockContent1, #blockContent2, #blockContent3 {
+	float: left;
+	width: 28%;
+	min-height: 570px; 
+	margin: 0 12px 12px 12px;
+	padding: 10px;
+	position: relative;
+}
+
+#blockContent1 p, #blockContent2 p, #blockContent3 p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.portfolioButtom {
+	position: absolute;
+	bottom: 10px;
+	left: 2%;
+	border: 0;
+	min-height: 33px;
+	min-width: 114px;
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+
+.portfolioButtom:hover {
+	background-color: black;
+	color: white;
+}
+
+.continueReadContent {
+	position: absolute;
+	bottom: 10px;
+	left: 68%;
+	border: 0;
+	min-height: 30px;
+	border-radius: 5px;
+}
+
+.continueReadContent:hover {
+	background-color: black;
+	color: white;
+}
+
+#blockContent1 {
+	margin-left: 4%;
+}
+
+#blockContent1 h3, #blockContent2 h3, #blockContent3 h3 {
+	font-family: verdana;
+	margin-left: 0;
+	font-size: 1.8em;
+}
+
+#blockContent1 p, #blockContent2 p, #blockContent3 p {
+	text-indent: 1em;
+	font-size: 1.3em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+.imagesLogoBlockNews {
+	width: 100%;
+	height: 200px;
+}
+
+#ourBenefist {
+	width: 100%;
+	background-color: #fafafa;
+	margin-top: 20px;
+	border-top: 1px solid silver;
+}
+
+#textOurBenefist {
+	font-size: 1.5em;
+	margin-left: 40px;
+
+}
+
+#textOurBenefist h1 {
+	margin: 5px;
+}
+
+#leftSidebar {
+	float: left;
+	width: 45%;
+	padding: 10px;
+	margin: 0 0 0 25px;
+	min-height: 400px;
+
+}
+
+.team {
+	min-height: 80px;
+	padding: 15px;
+	margin-top: 15px;
+}
+
+.team img {
+	float: left;
+	width: 65px;
+	height: 65px;
+}
+
+#textTeam1 p, #textTeam2 p, #textTeam3 p {
+	margin-left: 85px;
+}
+
+
+
+#rightSidebar {
+	float: right;
+	width: 45%;
+	padding: 10px;
+	margin: 0 25px 0 0;
+	min-height: 400px;
+}
+
+/* Загальні footer */
+#footer {
+	position: relative;
+	background-color: #ECECEC;
+	min-height: 320px;
+	min-width: 1286px;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+#block1, #block2, #block3 {
+	float: left;
+	width: 28%;
+	padding:10px;
+	margin: 10px 0 10px 32px;
+	min-height: 355px;
+	/*border: 2px solid black;
+	box-sizing: border-box; */
+	font-size: 1.3em;
+	position: relative;
+}
+
+
+#block1 ul li a, #block2 ul li a, #block3 ul li a {
+	color: #A7A7A7;
+} 
+
+
+#block1 ul li a:hover, #block2 ul li a:hover, #block3 ul li a:hover {
+	color: black;
+}
+
+
+.blocks_elements_footer ul li {
+	margin-top: 15px;
+}
+
+.blocks_elements_footer h4 {
+	color: #ff00d0;
+	margin: 0;
+}
+
+.blocks_elements_footer p {
+	margin: 10px;
+	text-indent: 1em;
+}
+
+
+#block1 h3, #block2 h3, #block3 h3 {
+	color: #585858;
+}
+
+#block1 h3 {
+	margin-left: 40px;
+}
+
+#block3 h3 {
+	margin-left: 10px;
+}
+
+#block1 p, #block2 p, #block3 p {
+	color: #A7A7A7;
+}
+
+
+/* Стилі для кнопки(Читати далі...)*/
+.continueRead {
+	position: absolute;
+	bottom: 20px;
+	left: 70%;
+	border: 0;
+	min-height: 30px;
+	border-radius: 5px;
+}
+
+.continueRead:hover {
+	background-color: black;
+	color: white;
+}
+/* Стилі для інформації про сайт*/
+#information {
+	height: 50px;
+	border-top: 1px solid grey;
+	padding: 10px;
+}
+
+#information p {
+	font-size: 1.1em;
+	margin: 10px 10px 10px 20px;
+}
+
+/* Стилі для соц-клавіш */
+#socialNetworks {
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+	width: 350px;
+	height: 50px;
+}
+
+.share42init {
+	margin-top: 10px;
+}
