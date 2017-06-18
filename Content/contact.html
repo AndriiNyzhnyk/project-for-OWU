@@ -40,8 +40,14 @@
 
 
 				<div id="MainContent">
+					<div id="wrapGoogleMap">
+						<div id="map"></div>
+					</div>
 					<div class="clear"></div>
 					<div id="content">
+						<div id="TitleSubmitEmail">
+							<h2>Напишіть нам, що вас цікавить </h2>
+						</div>
 						<div id="form">
 							<form name="" action="" method="POST">
 								<label for="userName">Ваше ім’я:</label>
@@ -186,5 +192,9 @@
 				</div>	
 			</div>
 		</div>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDE46Vm6OgJdmW5ER_XJp4EFc56k3abAoE&callback=initMap" async defer></script>
+		<script src="../script/main.js"></script>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
 	</body>
 </html>

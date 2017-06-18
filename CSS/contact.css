@@ -107,6 +107,18 @@ html, body {
 	background-color: white;
 }
 
+#wrapGoogleMap {
+	width: 97%;
+	height: 700px;
+	padding: 12px;
+	margin: 0 auto;
+}
+
+#map {
+	height: 100%;
+	width: 100%;
+}
+
 #content {
 	background-color: white;
 	width: 68%;
@@ -114,6 +126,14 @@ html, body {
 	float: left;
 	margin: 0 10px 10px 10px;
 	padding: 25px;
+}
+
+#TitleSubmitEmail {
+	margin-left: 35px;
+	font-size: 1.7em;
+}
+#TitleSubmitEmail h2 {
+	margin: 5px 0;
 }
 
 /* */
