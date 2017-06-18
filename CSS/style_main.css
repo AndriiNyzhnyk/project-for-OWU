@@ -95,27 +95,22 @@ html, body {
 	height: 45px;
 	background-color: white;
 	position: absolute;
-	top: 240px;
-	left: 10%;   /*  left: 90px; */
+	top: 230px;
+	left: 10.5%;   /*  left: 90px; */
 	border-radius: 7px;
-	padding-top: 7px;
-}
-
-#MainContentButton a {
 	color: red;
-	margin: 0 0 0 30px;
-	font-size: 1.9em;
+	/*margin: 0 0 0 30px;*/
+	font-size: 1.1em;
 	font-family: bold;
 }
 
+
 #MainContentButton:hover {
 	background-color: black;
-
-}
-
-#MainContentButton a:hover {
 	color: white;
+
 }
+
 
 #mainImages {
 	width: 100%;
@@ -186,6 +181,13 @@ html, body {
 	padding: 10px;
 	position: relative;
 }
+.collectionsText {
+	height: 185px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+
 
 .continueReadContent {
 	position: absolute;
