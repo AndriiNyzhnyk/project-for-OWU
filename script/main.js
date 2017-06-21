@@ -1,4 +1,4 @@
-window.onload = function () {
+// window.onload = function () {
 // Button Run in index.html
     function showText(el) {
         if (el.previousElementSibling.clientHeight === 185) {
@@ -32,4 +32,4 @@ window.onload = function () {
 
         });
     }
-}
+// }   // window.onload = function
