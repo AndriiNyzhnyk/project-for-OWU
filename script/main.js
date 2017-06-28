@@ -1,7 +1,7 @@
 // window.onload = function () {
 // Button Run in index.html
     function showText(el) {
-        if (el.previousElementSibling.clientHeight === 185) {
+        if (el.previousElementSibling.clientHeight <= 190) {  // clientHeight === 185
             el.previousElementSibling.style.height = "100%";
             el.innerHTML = "Сховати текст";
         } else {
