@@ -1,12 +1,10 @@
 function dinamicWidth() {
     var textOurProjec = document.getElementById("TextOurProject").offsetWidth;
-    console.log(textOurProjec);
     var slr = document.getElementsByClassName("slr");
     for (var i = 0; i < slr.length; i++) {
         slr[i].style.width = textOurProjec + "px";
 
     }
-
 }
 
 var trust = 0;
