@@ -1,5 +1,5 @@
 <?php
-
+// method what send a message in email
 $method = $_SERVER['REQUEST_METHOD'];
 
 //Script Foreach

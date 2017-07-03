@@ -1,3 +1,4 @@
+// function dinamicWidth slider img
 function dinamicWidth() {
     var textOurProjec = document.getElementById("TextOurProject").offsetWidth;
     var slr = document.getElementsByClassName("slr");
