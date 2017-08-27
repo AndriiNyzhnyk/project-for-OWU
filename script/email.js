@@ -1,6 +1,6 @@
 //E-mail Ajax Send
-$("form").submit(function() { //Change
-    var th = $(this);
+$("form").submit( () => { //Change
+    let th = $(this);
     $.ajax({
         type: "POST",
         url: "../PHP/mail.php", //Change

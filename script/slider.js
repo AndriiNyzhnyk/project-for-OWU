@@ -1,22 +1,22 @@
 // function dinamicWidth slider img
 function dinamicWidth() {
-    var textOurProjec = document.getElementById("TextOurProject").offsetWidth;
-    var slr = document.getElementsByClassName("slr");
-    for (var i = 0; i < slr.length; i++) {
+    let textOurProjec = document.getElementById("TextOurProject").offsetWidth;
+    let slr = document.getElementsByClassName("slr");
+    for (let i = 0; i < slr.length; i++) {
         slr[i].style.width = textOurProjec + "px";
 
     }
 }
 
-var trust = 0;
-var shift = 0;
-var i = 1;
-var interval = setInterval(function () {
+let trust = 0;
+let shift = 0;
+let i = 1;
+let interval = setInterval( () => {
     dinamicWidth();
-    var container = document.getElementById("container");
-    var slider = document.getElementsByClassName("slider");
-    var sliderWidth = slider[0].offsetWidth;
-    var sliderLength = slider.length;
+    let container = document.getElementById("container");
+    let slider = document.getElementsByClassName("slider");
+    let sliderWidth = slider[0].offsetWidth;
+    let sliderLength = slider.length;
     container.style.width = sliderWidth * sliderLength + sliderLength * 4 + "px";
 
     slider[i].style.marginLeft = -sliderWidth - 4 + shift + "px";

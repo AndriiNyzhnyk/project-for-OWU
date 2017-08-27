@@ -11,11 +11,11 @@
     }
 
 // Google Map
-    var map;
+    let map;
 
     function initMap() {
-        navigator.geolocation.getCurrentPosition(function (pos) {
-            var myLatLng = {lat: pos.coords.latitude, lng: pos.coords.longitude};
+        navigator.geolocation.getCurrentPosition( (pos) => {
+            let myLatLng = {lat: pos.coords.latitude, lng: pos.coords.longitude};
 
             map = new google.maps.Map(document.getElementById('map'), {
                 center: myLatLng,
@@ -23,7 +23,7 @@
                 backgroundColor: "silver"
             });
 
-            var marker = new google.maps.Marker({
+            let marker = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
                 title: 'Hello World!',
